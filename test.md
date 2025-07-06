@@ -19,6 +19,8 @@
      - name: Extract Code
        unarchive: src=/tmp/artifact.zip dest=/opt/ remote_src=True
 
+     - name: Extract Code
+       unarchive: src=/tmp/artifact.zip dest=/opt/ remote_src=True
 
      - name: Run Node Install
        shell: |
